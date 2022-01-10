@@ -19,6 +19,7 @@ struct Node {
 };
 
 
+
 Node *buildTree(string str) {
     // Corner Case
     if (str.length() == 0 || str[0] == 'N')
